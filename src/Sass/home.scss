@@ -1,0 +1,28 @@
+@import "./font.scss";
+@import "./reset.scss";
+@import "./mediaQuery.scss";
+.home_section {
+  height: 100vh;
+  // @include media991px {
+  //   height: unset;
+  // }
+  .home {
+    height: 468px;
+    .home_header {
+      span {
+        color: $primary;
+      }
+      font-family: "Roboto";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 72px;
+      line-height: 88px;
+      text-transform: uppercase;
+      color: $white;
+      @include media768px {
+        font-size: 54px;
+        line-height: 64px;
+      }
+    }
+  }
+}

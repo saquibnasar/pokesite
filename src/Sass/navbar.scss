@@ -1,0 +1,27 @@
+@import "./font.scss";
+@import "./reset.scss";
+.navbar_section {
+  .navbar-nav {
+    .nav-item {
+      font-family: "Roboto";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 28px;
+      .active {
+        color: $red !important;
+      }
+      a {
+        color: $white;
+      }
+      a:hover {
+        color: $red !important;
+      }
+    }
+  }
+  .active {
+    background: none;
+    color: $red !important;
+    box-shadow: none;
+  }
+}

@@ -1,0 +1,21 @@
+@import "./reset.scss";
+@import "./font.scss";
+@import "./mediaQuery.scss";
+.game {
+  background-image: url(../img/paten/bg.jpg);
+  .game_top {
+    margin-bottom: 200px;
+  }
+  .text-title {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    color: #000000;
+    @include media768px {
+      font-size: 20px;
+      font-weight: 600;
+    }
+  }
+}

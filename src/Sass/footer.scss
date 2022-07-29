@@ -1,0 +1,71 @@
+@import "./font.scss";
+@import "./custom.scss";
+.footer {
+  background: #191825;
+  .social_media {
+    margin-top: 3rem;
+    a {
+      background: $white;
+      box-shadow: 0px 4px 1px rgba(0, 0, 0, 0.25);
+      border-radius: 50%;
+      width: 45px;
+      height: 45px;
+      line-height: 45px;
+      text-align: center;
+      color: $black;
+    }
+    a:hover {
+      background: $red;
+      color: $white;
+    }
+  }
+  .company_name {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 0.02em;
+    color: $white;
+    text-shadow: 5px 5px 0 $black, 5px 5px 0 $black, 5px 5px 0 $black,
+      5px 5px 0 $black;
+  }
+  .footer_link {
+    h4 {
+      font-family: "Poppins";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 24px;
+      line-height: 36px;
+      letter-spacing: 0.02em;
+      color: $white;
+    }
+    a {
+      font-family: "Poppins";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 24px;
+      letter-spacing: 0.03em;
+      color: $white;
+      text-decoration: none;
+    }
+    a:hover {
+      color: $red !important;
+      cursor: pointer;
+    }
+  }
+  .footer_bottom {
+    padding-top: 40px;
+    padding-bottom: 10px;
+    background: #0a090f;
+    h3 {
+      font-family: "Poppins";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 24px;
+      color: #a5a3b5;
+    }
+  }
+}
