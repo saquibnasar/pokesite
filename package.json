@@ -1,6 +1,6 @@
 {
-  "homepage": "https://saquibnasar.github.io/pokesite",
   "name": "pokemon",
+  "homepage": "https://saquibnasar.github.io/pokesite",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
