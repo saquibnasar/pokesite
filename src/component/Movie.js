@@ -17,28 +17,28 @@ export default function Movie() {
                   genText="All"
                   customSize="custom-size"
                   textAlign="text-sm-end"
-                  link="/movie"
+                  link="movie"
                 />
                 <BtnComponent
                   id="movieSeries1"
                   genText="Original"
                   customSize="custom-size"
                   textAlign="text-sm-start"
-                  link="/movie/movieSeries1"
+                  link="movie/movieSeries1"
                 />
                 <BtnComponent
                   id="movieSeries2"
                   genText="Ruby"
                   customSize="custom-size"
                   textAlign="text-sm-end"
-                  link="/movie/movieSeries2"
+                  link="movie/movieSeries2"
                 />
                 <BtnComponent
                   id="movieSeries3"
                   genText="Pearl"
                   customSize="custom-size"
                   textAlign="text-sm-start"
-                  link="/movie/movieSeries3"
+                  link="movie/movieSeries3"
                 />
 
                 <BtnComponent
@@ -46,14 +46,14 @@ export default function Movie() {
                   genText="Black"
                   customSize="custom-size"
                   textAlign="text-sm-end"
-                  link="/movie/movieSeries4"
+                  link="movie/movieSeries4"
                 />
                 <BtnComponent
                   id="movieSeries5"
                   genText="XY"
                   customSize="custom-size"
                   textAlign="text-sm-start"
-                  link="/movie/movieSeries5"
+                  link="movie/movieSeries5"
                 />
 
                 <BtnComponent
@@ -61,14 +61,14 @@ export default function Movie() {
                   genText="Sun"
                   customSize="custom-size"
                   textAlign="text-sm-end"
-                  link="/movie/movieSeries6"
+                  link="movie/movieSeries6"
                 />
                 <BtnComponent
                   id="movieSeries7"
                   genText="Series"
                   customSize="custom-size"
                   textAlign="text-sm-start"
-                  link="/movie/movieSeries7"
+                  link="movie/movieSeries7"
                 />
               </div>
             </div>

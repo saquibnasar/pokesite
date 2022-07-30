@@ -20,20 +20,20 @@ export default function AnimeLayout() {
                   genText="All"
                   customSize="custom-size"
                   textAlign="text-sm-start"
-                  link="/anime/"
+                  link="anime/"
                 />
                 <BtnComponent
                   id="season24"
                   customSize="custom-size"
                   textAlign="text-sm-start"
                   genText="Gen-1"
-                  link="/anime/season24"
+                  link="anime/season24"
                 />
 
                 <BtnComponent
                   id="season23"
                   genText="Gen-2"
-                  link="/anime/season23"
+                  link="anime/season23"
                   customSize="custom-size"
                   textAlign="text-sm-start"
                 />
@@ -41,7 +41,7 @@ export default function AnimeLayout() {
                 <BtnComponent
                   id="gen-3"
                   genText="Gen-3"
-                  link="/anime/season22"
+                  link="anime/season22"
                   customSize="custom-size"
                   textAlign="text-sm-start"
                 />
@@ -49,7 +49,7 @@ export default function AnimeLayout() {
                 <BtnComponent
                   id="gen-4"
                   genText="Gen-4"
-                  link="/anime/season21"
+                  link="anime/season21"
                   customSize="custom-size"
                   textAlign="text-sm-start"
                 />
@@ -57,7 +57,7 @@ export default function AnimeLayout() {
                 <BtnComponent
                   id="gen-5"
                   genText="Gen-5"
-                  link="/anime/season20"
+                  link="anime/season20"
                   customSize="custom-size"
                   textAlign="text-sm-start"
                 />
@@ -65,7 +65,7 @@ export default function AnimeLayout() {
                 <BtnComponent
                   id="gen-6"
                   genText="Gen-6"
-                  link="/anime/season19"
+                  link="anime/season19"
                   customSize="custom-size"
                   textAlign="text-sm-start"
                 />
@@ -73,7 +73,7 @@ export default function AnimeLayout() {
                 <BtnComponent
                   id="gen-7"
                   genText="Gen-7"
-                  link="/anime/season18"
+                  link="anime/season18"
                   customSize="custom-size"
                   textAlign="text-sm-start"
                 />

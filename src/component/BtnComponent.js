@@ -11,7 +11,7 @@ export default function BtnComponent(props) {
           className={`btn-empty d-inline-block text-decoration-none series ${props.btnType} ${props.btnFill} ${props.customSize}`}
           id={props.id}
           onClick={props.btnClick}
-          to={props.link}
+          to={`/pokesite/${props.link}`}
         >
           {props.genText}
         </NavLink>
