@@ -15,7 +15,6 @@
     "bootstrap": "^5.1.3",
     "flickity": "^3.0.0",
     "font-awesome": "^4.7.0",
-    "gh-pages": "^4.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.3.0",
@@ -52,6 +51,7 @@
     ]
   },
   "devDependencies": {
+    "gh-pages": "^4.0.0",
     "node-sass": "^7.0.1"
   }
 }
