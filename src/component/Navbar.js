@@ -13,7 +13,7 @@ export default function Navbar(props) {
           className={`navbar navbar-expand-lg navbar-dark ${props.bgColor} py-4"`}
         >
           <div className="container-fluid px-50">
-            <Link className="navbar-brand" to="/#home_section">
+            <Link className="navbar-brand" to="/pokesite#home_section">
               <img
                 className="max-width-70"
                 src="/pokesite/images/logo.png"

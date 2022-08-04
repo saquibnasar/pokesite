@@ -12,22 +12,22 @@ export default function Footer() {
         <div className="container-fluid px-50">
           <div className="row">
             <div className="col-xl-3 col-8">
-              <a href="#">
+              <Link to="/pokesite#home_section">
                 <img src="/pokesite/images/logo.png" alt="" />
-              </a>
+              </Link>
               <div className="social_media d-flex gap-3">
-                <a href="#">
+                <Link to="/">
                   <FontAwesomeIcon icon={faFacebookF} />
-                </a>
-                <a href="#">
+                </Link>
+                <Link to="/">
                   <FontAwesomeIcon icon={faInstagram} />
-                </a>
-                <a href="#">
+                </Link>
+                <Link to="/">
                   <FontAwesomeIcon icon={faLinkedinIn} />
-                </a>
-                <a href="#">
+                </Link>
+                <Link to="/">
                   <FontAwesomeIcon icon={faTwitter} />
-                </a>
+                </Link>
               </div>
             </div>
             <div className="col-xl-4 col-lg-5  mt-4 mt-xl-0 ">
@@ -63,9 +63,15 @@ export default function Footer() {
             </div>
             <div className="col-xl-2 col-lg-3 mt-4 mt-xl-0 footer_link">
               <h4>Terms</h4>
-              <a className="mt-5 d-block">Terms of use</a>
-              <a className="d-block mt-3">Privacy policy</a>
-              <a className="d-block mt-3">Help</a>
+              <Link to="/pokesite#home_section" className="mt-5 d-block">
+                Terms of use
+              </Link>
+              <Link to="/pokesite#home_section" className="d-block mt-3">
+                Privacy policy
+              </Link>
+              <Link to="/pokesite#home_section" className="d-block mt-3">
+                Help
+              </Link>
             </div>
           </div>
         </div>

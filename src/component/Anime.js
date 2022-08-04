@@ -17,20 +17,20 @@ export default function Anime() {
                   customSize="custom-size"
                   textAlign="text-sm-start"
                   genText="All"
-                  link="anime"
+                  link="/pokesite/anime"
                 />
                 <BtnComponent
                   id="gen-1"
                   customSize="custom-size"
                   textAlign="text-sm-start"
                   genText="Gen-1"
-                  link="anime/season24"
+                  link="/pokesite/anime/season24"
                 />
 
                 <BtnComponent
                   id="gen-2"
                   genText="Gen-2"
-                  link="anime/season23"
+                  link="/pokesite/anime/season23"
                   customSize="custom-size"
                   textAlign="text-sm-start"
                 />
@@ -38,7 +38,7 @@ export default function Anime() {
                 <BtnComponent
                   id="gen-3"
                   genText="Gen-3"
-                  link="anime/season22"
+                  link="/pokesite/anime/season22"
                   customSize="custom-size"
                   textAlign="text-sm-start"
                 />
@@ -46,7 +46,7 @@ export default function Anime() {
                 <BtnComponent
                   id="gen-4"
                   genText="Gen-4"
-                  link="anime/season21"
+                  link="/pokesite/anime/season21"
                   customSize="custom-size"
                   textAlign="text-sm-start"
                 />
@@ -54,7 +54,7 @@ export default function Anime() {
                 <BtnComponent
                   id="gen-5"
                   genText="Gen-5"
-                  link="anime/season20"
+                  link="/pokesite/anime/season20"
                   customSize="custom-size"
                   textAlign="text-sm-start"
                 />
@@ -62,7 +62,7 @@ export default function Anime() {
                 <BtnComponent
                   id="gen-6"
                   genText="Gen-6"
-                  link="anime/season19"
+                  link="/pokesite/anime/season19"
                   customSize="custom-size"
                   textAlign="text-sm-start"
                 />
@@ -70,7 +70,7 @@ export default function Anime() {
                 <BtnComponent
                   id="gen-7"
                   genText="Gen-7"
-                  link="anime/season18"
+                  link="/pokesite/anime/season18"
                   customSize="custom-size"
                   textAlign="text-sm-start"
                 />
@@ -85,7 +85,7 @@ export default function Anime() {
                         key={value.id}
                         className="col-lg-3 col-md-4 col-12 show_card carousel-cell"
                       >
-                        <Link to={`${value.link}`}>
+                        <Link to={`/pokesite/anime/${value.link}`}>
                           <img src={value.img} className="img-fluid" alt="" />
                         </Link>
                         {/* <a href="#" class="play-icon">

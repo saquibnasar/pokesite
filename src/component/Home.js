@@ -15,18 +15,19 @@ export default function Home() {
                 <br />
                 community
               </h1>
-              <div className="">
-                <a className="btn-main mt-4" href="#">
+              <div>
+                <a className="btn-main mt-4" href="/">
                   More
                 </a>
               </div>
             </div>
             <div className="col-5 d-none d-lg-block  d-flex justify-content-end">
-              <img src="/images/pikachu.png" alt="" />
+              <img src="/pokesite/images/pikachu.png" alt="" />
             </div>
           </div>
         </div>
       </section>
+
       <Home_movie />
       <Home_game />
       <Home_anime />
