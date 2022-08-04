@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/pokesite/static/css/main.5a481ca2.css",
-    "main.js": "/pokesite/static/js/main.50395bac.js",
+    "main.css": "/pokesite/static/css/main.9543dff2.css",
+    "main.js": "/pokesite/static/js/main.e0428260.js",
     "static/js/787.ab378faf.chunk.js": "/pokesite/static/js/787.ab378faf.chunk.js",
     "static/media/season24_ep06.png": "/pokesite/static/media/season24_ep06.1037a26a0facb32b11df.png",
     "static/media/season24.png": "/pokesite/static/media/season24.ccb11f3f7588c87facb2.png",
@@ -94,12 +94,12 @@
     "static/media/slick.ttf": "/pokesite/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/pokesite/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/pokesite/index.html",
-    "main.5a481ca2.css.map": "/pokesite/static/css/main.5a481ca2.css.map",
-    "main.50395bac.js.map": "/pokesite/static/js/main.50395bac.js.map",
+    "main.9543dff2.css.map": "/pokesite/static/css/main.9543dff2.css.map",
+    "main.e0428260.js.map": "/pokesite/static/js/main.e0428260.js.map",
     "787.ab378faf.chunk.js.map": "/pokesite/static/js/787.ab378faf.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5a481ca2.css",
-    "static/js/main.50395bac.js"
+    "static/css/main.9543dff2.css",
+    "static/js/main.e0428260.js"
   ]
 }
